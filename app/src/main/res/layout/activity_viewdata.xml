@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/whatsapp_image_2024_01_01_at_9_21_15_pm"
+    tools:ignore="ExtraText"
+    android:id="@+id/button3"
+    tools:context=".VIEWDATA">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:text="RENTAL"
+        android:background="@color/blue"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="-64dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="-380dp"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:textStyle="italic"
+        android:text="SALES" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="350dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="-380dp"
+        android:background="@color/blue"
+        android:textStyle="italic"
+
+        android:text="SERVICE" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="-380dp"
+        android:background="@color/blue"
+        android:textStyle="italic"
+        android:text="PROJECTS" />
+
+
+</LinearLayout>
