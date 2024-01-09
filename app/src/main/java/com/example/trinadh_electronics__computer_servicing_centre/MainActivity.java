@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,INSERTDATA.class);
+
                 Intent intent1=new Intent(MainActivity.this,VIEWDATA.class);
                 startActivity(intent);
             }
