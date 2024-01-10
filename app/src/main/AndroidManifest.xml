@@ -16,6 +16,9 @@
             android:name=".PROJECTS"
             android:exported="false" />
         <activity
+            android:name=".INSERTDATA"
+            android:exported="false" />
+        <activity
             android:name=".SALES"
             android:exported="false" />
         <activity
