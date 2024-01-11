@@ -2,33 +2,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2024_01_01_at_9_21_15_pm"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:background="@drawable/whatsapp_image_2024_01_01_at_9_21_15_pm"
     tools:ignore="ExtraText">
 
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="600dp"
-        android:layout_height="70dp"
+    <ImageButton
+        android:id="@+id/viewdata"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
         android:layout_weight="1"
-        android:layout_marginTop="290dp"
-        android:background="@color/blue"
-        android:textStyle="italic"
-        android:text="INSERT DATA" />
+        android:backgroundTint="#FDFDFD"
+        android:scaleType="center"
+        app:srcCompat="@drawable/view_data_removebg_preview" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="600dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginLeft="-370dp"
+    <ImageButton
+        android:id="@+id/insertdata"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginTop="250dp"
         android:layout_weight="1"
-        android:background="@color/blue"
-        android:textStyle="italic"
-        android:text="VIEW DATA" />
+        android:backgroundTint="#FDFDFD"
+        android:scaleType="center"
+        app:srcCompat="@drawable/insertdata_removebg_preview" />
 
 </LinearLayout>
