@@ -24,10 +24,10 @@ public class INSERTDATA extends AppCompatActivity {
 
 
 
-        button = findViewById(R.id.button);
-        button0 = findViewById(R.id.button2);
-        button9 = findViewById(R.id.button5);
-        button8 = findViewById(R.id.button6);
+        button = findViewById(R.id.rental);
+        button0 = findViewById(R.id.sales);
+        button9 = findViewById(R.id.services);
+        button8 = findViewById(R.id.projects);
 
 
             button.setOnClickListener(new View.OnClickListener() {
