@@ -41,6 +41,7 @@ public class VIEWDATA extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent intent = new Intent(VIEWDATA.this, SALES.class);
 
+
                         startActivity(intent);
 
                     }
