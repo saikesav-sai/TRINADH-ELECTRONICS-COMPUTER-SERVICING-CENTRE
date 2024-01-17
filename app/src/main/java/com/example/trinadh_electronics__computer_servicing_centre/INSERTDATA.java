@@ -39,7 +39,7 @@ public class INSERTDATA extends AppCompatActivity {
                     button0.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Intent intent = new Intent(INSERTDATA.this, SERVICES.class);
+                            Intent intent = new Intent(INSERTDATA.this, SALES.class);
 
                             startActivity(intent);
 
@@ -53,7 +53,7 @@ public class INSERTDATA extends AppCompatActivity {
                 button9.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(INSERTDATA.this, SALES.class);
+                        Intent intent = new Intent(INSERTDATA.this, SERVICES.class);
 
                         startActivity(intent);
                     }
