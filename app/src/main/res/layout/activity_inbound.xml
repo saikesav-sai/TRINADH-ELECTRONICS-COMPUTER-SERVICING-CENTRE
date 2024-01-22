@@ -20,242 +20,350 @@
 
                 <TextView
 
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="300dp"
-                    android:text="CUSTOMER NAME :"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:layout_marginRight="10dp"
+                    android:text="Customer Name"
+                    android:textSize="20dp" />
+
+               <EditText
+                   android:id="@+id/CustomerName_inbound"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Customer Name"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="310dp"
+                   android:padding="10dp"/>
 
 
-                <EditText
-                    android:id="@+id/phone1_input"
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="330dp"
+
+               <TextView
+
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="380dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Phone number"
+                   android:textSize="20dp"
+                   />
 
 
-                    />
 
 
-                <EditText
-                    android:id="@+id/phone2_input"
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="370dp"
+               <EditText
+                   android:id="@+id/phone_number_inbond"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Phone number"
+                   android:layout_below="@id/CustomerName_inbound"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="20dp"
+                   android:padding="10dp"/>
 
 
-                    />
+               <TextView
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="350dp"
-                    android:text="PHONE NUMBER :"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <EditText
-                    android:id="@+id/name_input"
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="290dp"
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="450dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Customer Address"
+                   android:textSize="20dp"
+                   />
 
 
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="440dp"
-                    android:text="CUSTOMER ADDRESS :"
-                    android:textSize="17dp"
-                    android:textStyle="bold" />
-
-                <EditText
-                    android:id="@+id/customeraddress1"
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="430dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="490dp"
-                    android:text="COMPLAINT :"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="490dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="560dp"
-                    android:text="ASSIGNED TECHNICIAN :"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
-
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="550dp"
-
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="620dp"
-                    android:text="ASSIGNED BY TECHNICIAN :"
-                    android:textSize="14dp"
-                    android:textStyle="bold" />
-
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="620dp"
-
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="680dp"
-                    android:text="FORWARDED TO :"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="620dp"
-
-                    />
-
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="680dp"
-
-                    />
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="740dp"
-                    android:text="COMPLETIION STATUS :"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
+               <EditText
+                   android:id="@+id/customeraddress_inbond"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Customer Address"
+                   android:layout_below="@id/phone_number_inbond"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="30dp"
+                   android:padding="10dp"/>
 
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="740dp"
+               <TextView
 
-                    />
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="520dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Complaint"
+                   android:textSize="20dp"
+                   />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="800dp"
-                    android:text="DELRVERY :"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
 
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="800dp"
 
-                    />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="840dp"
-                    android:text="ESTIMATED AMOUNT :"
-                    android:textSize="17dp"
-                    android:textStyle="bold" />
+               <EditText
+                   android:id="@+id/complaint_inbond"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Complaint"
+                   android:layout_below="@id/customeraddress_inbond"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="17dp"
+                   android:padding="8dp"/>
 
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="880dp"
 
-                    />
+               <TextView
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="920dp"
-                    android:text="ADVANCE PAYMENT :"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="570dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Assigned Technicinan"
+                   android:textSize="18dp"
+                   />
 
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="920dp"
 
-                    />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="960dp"
-                    android:text="CUSTOMER APPROVAL :"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
 
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="960dp"
+               <EditText
+                   android:id="@+id/Assigned_technician_inbond"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Assigned technician"
+                   android:layout_below="@id/complaint_inbond"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="10dp"
+                   android:padding="10dp"/>
 
-                    />
+               <TextView
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1020dp"
-                    android:text="PAID AMOUNT :"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="630dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Assigned by Technician"
+                   android:textSize="20dp"
+                   />
 
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
-                    android:layout_marginTop="1020dp"
 
-                    />
 
-               <Button
+
+               <EditText
+                   android:id="@+id/Assigned_by_technician_inbond"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Assigned by technician"
+                   android:layout_below="@id/Assigned_technician_inbond"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="30dp"
+                   android:padding="10dp"/>
+
+               <TextView
+
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="740dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Forwarded to"
+                   android:textSize="20dp"
+                   />
+
+
+
+
+               <EditText
+                   android:id="@+id/Forwardedto"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Forwarded to "
+                   android:layout_below="@id/Assigned_by_technician_inbond"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="20dp"
+                   android:padding="10dp"/>
+
+               <TextView
+
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="820dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Completioin Status"
+                   android:textSize="15dp"
+                   />
+
+
+
+
+               <EditText
+                   android:id="@+id/completion_status"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Completion status"
+                   android:layout_below="@id/Forwardedto"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="30dp"
+                   android:padding="10dp"/>
+
+
+
+               <TextView
+
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="1000dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Delivery"
+                   android:textSize="20dp"
+                   />
+
+
+
+
+               <EditText
+                   android:id="@+id/Estimated_amount_inbond"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Estimated Amount"
+                   android:layout_below="@id/completion_status"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="50dp"
+                   android:padding="10dp"/>
+
+
+
+               <TextView
+
+                   android:layout_width="100dp"
+                   android:layout_height="70dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="900dp"
+                   android:layout_marginRight="10dp"
+                   android:text="Estimated Amount"
+                   android:textSize="20dp"
+                   />
+
+
+
+
+               <EditText
+                   android:id="@+id/delivery"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Delivery"
+                   android:layout_below="@id/Estimated_amount_inbond"
+                   android:layout_marginLeft="150dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="30dp"
+                   android:padding="10dp"/>
+
+
+
+              <TextView
+
+                  android:layout_width="100dp"
+                  android:layout_height="70dp"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginTop="1040dp"
+                  android:layout_marginRight="10dp"
+                  android:text="Advance Payment"
+                  android:textSize="20dp"
+                  />
+
+
+
+
+              <EditText
+                  android:id="@+id/advace_payment_inbond"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Advance payment"
+                  android:layout_below="@id/delivery"
+                  android:layout_marginLeft="150dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_marginTop="20dp"
+                  android:padding="10dp"/>
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1120dp"
+                android:layout_marginRight="10dp"
+                android:text="Customer Approval"
+                android:textSize="20dp"
+                />
+
+
+
+
+            <EditText
+                android:id="@+id/customer_approval_inbond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer Approval"
+                android:layout_below="@id/advace_payment_inbond"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"/>
+
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1200dp"
+                android:layout_marginRight="10dp"
+                android:text="Paid amount"
+                android:textSize="20dp"
+                />
+
+
+
+
+            <EditText
+                android:id="@+id/paid_amount_inbond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Paid amount"
+                android:layout_below="@id/customer_approval_inbond"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="25dp"
+                android:padding="10dp"/>
+
+
+
+
+
+
+
+
+
+            <Button
                android:layout_width="200dp"
                android:layout_height="70dp"
                android:text="submit"
                android:textSize="20dp"
                android:textStyle="bold"
-               android:layout_marginTop="1140dp"
+               android:layout_marginTop="1300dp"
                    android:layout_marginBottom="80dp"
                android:layout_marginLeft="100dp"
 

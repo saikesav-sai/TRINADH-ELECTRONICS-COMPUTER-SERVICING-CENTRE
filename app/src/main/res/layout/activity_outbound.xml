@@ -17,116 +17,156 @@
 
             />
 
+
         <TextView
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="300dp"
-            android:text="CUSTOMER NAME :"
+            android:layout_marginRight="10dp"
+            android:text="Customer Name"
             android:textSize="20dp"
-            android:textStyle="bold" />
-
-
-        <EditText
-            android:id="@+id/phone1_input"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="330dp"
-
-
             />
 
 
+
+
         <EditText
-            android:id="@+id/phone2_input"
-            android:layout_width="250dp"
+            android:id="@+id/CustomerName_outbound"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="370dp"
-
-
-            />
+            android:hint="Customer Name"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="310dp"
+            android:padding="10dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="350dp"
-            android:text="PHONE NUMBER :"
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginRight="10dp"
+            android:text="Phone number"
             android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/name_input"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="290dp"
-
-
             />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="440dp"
-            android:text="CUSTOMER ADDRESS :"
-            android:textSize="17dp"
-            android:textStyle="bold" />
+
+
 
         <EditText
-            android:id="@+id/customeraddress1"
-            android:layout_width="250dp"
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="430dp" />
+            android:hint="Phone number"
+            android:layout_below="@id/CustomerName_outbound"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="490dp"
-            android:text="COMPLAINT :"
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="10dp"
+            android:text="Customer Address"
             android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="490dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="560dp"
-            android:text="ASSIGNED TECHNICIAN :"
-            android:textSize="16dp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="550dp"
-
             />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="620dp"
-            android:text="ASSIGNED BY TECHNICIAN :"
-            android:textSize="14dp"
-            android:textStyle="bold" />
+
+
 
         <EditText
-            android:layout_width="250dp"
+            android:id="@+id/customeraddress_outbond"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="620dp"
+            android:hint="Customer Address"
+            android:layout_below="@id/phone_number"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"/>
 
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginRight="10dp"
+            android:text="Complaint"
+            android:textSize="20dp"
             />
 
+
+
+
+        <EditText
+            android:id="@+id/complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Complaint"
+            android:layout_below="@id/customeraddress_outbond"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="17dp"
+            android:padding="8dp"/>
+
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginRight="10dp"
+            android:text="Assigned Technicinan"
+            android:textSize="18dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/Assigned_technician"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Assigned technician"
+            android:layout_below="@id/complaint"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="630dp"
+            android:layout_marginRight="10dp"
+            android:text="Assigned by Technician"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/Assigned_by_technician"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Assigned by technician"
+            android:layout_below="@id/Assigned_technician"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"/>
 
 <Button
         android:layout_width="150dp"
@@ -134,7 +174,7 @@
         android:text="submit"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_marginTop="670dp"
+        android:layout_marginTop="740dp"
         android:layout_marginLeft="120dp"
 />
 

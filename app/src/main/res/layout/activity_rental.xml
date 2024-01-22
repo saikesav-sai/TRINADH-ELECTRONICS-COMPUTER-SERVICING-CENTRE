@@ -98,8 +98,8 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="530dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="30dp"
             android:text="Reference Ph.no"
             android:textSize="20dp"
             />
@@ -123,7 +123,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="580dp"
+            android:layout_marginTop="610dp"
             android:layout_marginRight="10dp"
             android:text="Cheque Nunmber"
             android:textSize="20dp"
@@ -139,7 +139,7 @@
             android:hint="Reference Phone Number"
             android:layout_below="@id/order"
             android:layout_marginLeft="150dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="40dp"
             android:layout_marginTop="10dp"
             android:padding="10dp"/>
 
@@ -149,7 +149,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="630dp"
+            android:layout_marginTop="670dp"
             android:layout_marginRight="10dp"
             android:text="Cheque Amount"
             android:textSize="20dp"
@@ -166,7 +166,7 @@
             android:layout_below="@id/workingstatus"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="20dp"
             android:padding="10dp"/>
 
 
@@ -175,7 +175,7 @@
             android:layout_width="110dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="680dp"
+            android:layout_marginTop="740dp"
             android:layout_marginRight="10dp"
             android:text="Security Deposit"
             android:textSize="19dp"
@@ -200,7 +200,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="730dp"
+            android:layout_marginTop="800dp"
             android:layout_marginRight="10dp"
             android:text="Material Name"
             android:textSize="20dp"
@@ -217,7 +217,7 @@
             android:layout_below="@id/compeleted"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="20dp"
             android:padding="10dp"/>
 
         <TextView
@@ -251,7 +251,7 @@
             android:layout_below="@id/remarks"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="-45dp"
+            android:layout_marginTop="-60dp"
             android:padding="10dp"/>
 
 
@@ -260,7 +260,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="800dp"
+            android:layout_marginTop="857dp"
             android:layout_marginRight="10dp"
             android:text="Configuration"
             android:textSize="20dp"
@@ -277,7 +277,7 @@
             android:layout_below="@id/mate"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="0dp"
             android:padding="10dp"/>
 
 
@@ -286,7 +286,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="870dp"
+            android:layout_marginTop="920dp"
             android:layout_marginRight="10dp"
             android:text="Amount per month"
             android:textSize="20dp"
@@ -311,7 +311,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="940dp"
+            android:layout_marginTop="980dp"
             android:layout_marginRight="10dp"
             android:text="Number of months"
             android:textSize="20dp"
@@ -324,7 +324,7 @@
             android:id="@+id/Number_of_months"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint=""
+            android:hint="Number of months"
             android:layout_below="@id/amount_per_month"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
@@ -336,7 +336,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="1010dp"
+            android:layout_marginTop="1050dp"
             android:layout_marginRight="10dp"
             android:text="Total Amount"
             android:textSize="20dp"
@@ -349,7 +349,7 @@
             android:id="@+id/total_amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint=""
+            android:hint="Total amount"
             android:layout_below="@id/Number_of_months"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
@@ -360,7 +360,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="1080dp"
+            android:layout_marginTop="1120dp"
             android:layout_marginRight="10dp"
             android:text="Advance"
             android:textSize="20dp"
@@ -373,11 +373,11 @@
             android:id="@+id/advance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint=""
+            android:hint="Advance"
             android:layout_below="@id/total_amount"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="6dp"
             android:padding="10dp"/>
 
 
@@ -386,7 +386,7 @@
             android:layout_width="100dp"
             android:layout_height="70dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="1160dp"
+            android:layout_marginTop="1170dp"
             android:layout_marginRight="10dp"
             android:text="Date of payment"
             android:textSize="20dp"
@@ -402,8 +402,134 @@
             android:hint="Date of payment"
             android:layout_below="@id/advance"
             android:layout_marginLeft="150dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"/>
+
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1250dp"
+            android:layout_marginRight="10dp"
+            android:text="Balance"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Balance"
+            android:layout_below="@id/Date_of_payment"
+            android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1300dp"
+            android:layout_marginRight="10dp"
+            android:text="Payment Status"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/payment_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Payment status"
+            android:layout_below="@id/balance"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1370dp"
+            android:layout_marginRight="10dp"
+            android:text="Total"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="total"
+            android:layout_below="@id/payment_status"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1440dp"
+            android:layout_marginRight="10dp"
+            android:text="Remarks"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/remarks_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Remarks"
+            android:layout_below="@id/total"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"/>
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1510dp"
+            android:layout_marginRight="10dp"
+            android:text="Technician name"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/technician_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Technician name"
+            android:layout_below="@id/remarks_"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
             android:padding="10dp"/>
 
 

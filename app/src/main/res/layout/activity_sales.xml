@@ -20,104 +20,164 @@
 
         <TextView
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="300dp"
-            android:text="CUSTOMER NAME :"
+            android:layout_marginRight="10dp"
+            android:text="Customer Name"
             android:textSize="20dp"
-            android:textStyle="bold" />
-
-
-        <EditText
-            android:id="@+id/phone1_input"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="330dp"
-
-
             />
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="350dp"
-            android:text="DATE :"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+
 
         <EditText
-            android:id="@+id/name_input"
-            android:layout_width="250dp"
+            android:id="@+id/CustomerName_sales"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="290dp"
-
-
-            />
+            android:hint="Customer Name"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="300dp"
+            android:padding="10dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="380dp"
-            android:text="PRODUCT :"
+            android:layout_marginRight="10dp"
+            android:text="Date"
             android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/customeraddress1"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="380dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="440dp"
-            android:text="PRICE :"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="440dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="500dp"
-            android:text="MATERIAL :"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="500dp"
-
             />
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="560dp"
-            android:text="PAID AMOUNT :"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+
 
         <EditText
-            android:layout_width="250dp"
+            android:id="@+id/date_sales"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="560dp"
+            android:hint="Date"
+            android:layout_below="@id/CustomerName_sales"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
 
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="10dp"
+            android:text="Product"
+            android:textSize="20dp"
             />
+
+
+
+
+        <EditText
+            android:id="@+id/product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product"
+            android:layout_below="@id/date_sales"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="10dp"
+            android:text="Price"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:layout_below="@id/product"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"/>
+
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginRight="10dp"
+            android:text="Material"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/material_sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Material"
+            android:layout_below="@id/price"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="1dp"
+            android:padding="10dp"/>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="10dp"
+            android:text="Paid amount"
+            android:textSize="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/paid_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paid amount"
+            android:layout_below="@id/material_sales"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
 
 
         <Button
@@ -127,7 +187,7 @@
             android:text="submit"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:layout_marginTop="640dp"
+            android:layout_marginTop="650dp"
             android:layout_marginLeft="100dp"
 
 
