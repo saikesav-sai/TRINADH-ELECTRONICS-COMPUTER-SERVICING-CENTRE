@@ -26,6 +26,8 @@
             android:id="@+id/CustomerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
+
             android:hint="Customer Name"
          android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
@@ -37,6 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date"
+            android:singleLine="true"
+
             android:layout_below="@id/CustomerName"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
@@ -49,6 +53,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Project Summary"
+            android:singleLine="true"
+
             android:layout_below="@id/date"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
@@ -58,6 +64,8 @@
 
         <EditText
             android:id="@+id/Amount"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Estimated Amount"
@@ -110,6 +118,8 @@
 
         <EditText
             android:id="@+id/order"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Project Work Order"
@@ -135,6 +145,8 @@
 
         <EditText
             android:id="@+id/workingstatus"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Working Status"
@@ -164,6 +176,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Material"
+            android:singleLine="true"
+
             android:layout_below="@id/workingstatus"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
@@ -190,6 +204,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Compeleted"
+            android:singleLine="true"
+
             android:layout_below="@id/material0"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"
@@ -215,6 +231,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Remarks"
+            android:singleLine="true"
+
             android:layout_below="@id/compeleted"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="30dp"

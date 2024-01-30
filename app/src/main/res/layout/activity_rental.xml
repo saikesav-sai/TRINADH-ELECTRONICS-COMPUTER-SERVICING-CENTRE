@@ -23,6 +23,8 @@
 
         <EditText
             android:id="@+id/CustomerName"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Customer Name"
@@ -33,6 +35,8 @@
 
         <EditText
             android:id="@+id/date"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone Number"
@@ -45,6 +49,8 @@
 
         <EditText
             android:id="@+id/project"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone number 2"
@@ -57,6 +63,8 @@
 
         <EditText
             android:id="@+id/Amount"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Customer Address"
@@ -109,6 +117,8 @@
 
         <EditText
             android:id="@+id/order"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Reference"
@@ -134,6 +144,8 @@
 
         <EditText
             android:id="@+id/workingstatus"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Reference Phone Number"
@@ -160,6 +172,8 @@
 
         <EditText
             android:id="@+id/material0"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cheque Number"
@@ -186,6 +200,8 @@
 
         <EditText
             android:id="@+id/compeleted"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cheque Amount"
@@ -211,6 +227,8 @@
 
         <EditText
             android:id="@+id/Remarks2"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Security Deposit"
@@ -245,6 +263,8 @@
         <EditText
 
             android:id="@+id/mate"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Material Name"
@@ -271,6 +291,8 @@
 
         <EditText
             android:id="@+id/config"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Configuration"
@@ -297,6 +319,8 @@
 
         <EditText
             android:id="@+id/amount_per_month"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Amount per month"
@@ -322,6 +346,8 @@
 
         <EditText
             android:id="@+id/Number_of_months"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Number of months"
@@ -347,6 +373,8 @@
 
         <EditText
             android:id="@+id/total_amount"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Total amount"
@@ -371,6 +399,8 @@
 
         <EditText
             android:id="@+id/advance"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Advance"
@@ -397,6 +427,8 @@
 
         <EditText
             android:id="@+id/Date_of_payment"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date of payment"
@@ -423,6 +455,8 @@
 
         <EditText
             android:id="@+id/balance"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Balance"
@@ -449,6 +483,8 @@
 
         <EditText
             android:id="@+id/payment_status"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Payment status"
@@ -474,6 +510,8 @@
 
         <EditText
             android:id="@+id/total"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="total"
@@ -499,6 +537,8 @@
 
         <EditText
             android:id="@+id/remarks_"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Remarks"
@@ -523,6 +563,8 @@
 
         <EditText
             android:id="@+id/technician_name"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Technician name"

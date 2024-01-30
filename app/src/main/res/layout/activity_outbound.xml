@@ -30,17 +30,17 @@
             />
 
 
-
-
         <EditText
             android:id="@+id/CustomerName_outbound"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Customer Name"
+
+            android:singleLine="true"
             android:layout_marginLeft="150dp"
-            android:layout_marginRight="30dp"
             android:layout_marginTop="310dp"
-            android:padding="10dp"/>
+            android:layout_marginRight="30dp"
+            android:hint="Customer Name"
+            android:padding="10dp" />
 
         <TextView
 
@@ -60,6 +60,7 @@
             android:id="@+id/phone_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
             android:hint="Phone number"
             android:layout_below="@id/CustomerName_outbound"
             android:layout_marginLeft="150dp"
@@ -85,6 +86,8 @@
             android:id="@+id/customeraddress_outbond"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
+
             android:hint="Customer Address"
             android:layout_below="@id/phone_number"
             android:layout_marginLeft="150dp"
@@ -110,6 +113,8 @@
             android:id="@+id/complaint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+                        android:singleLine="true"
+
             android:hint="Complaint"
             android:layout_below="@id/customeraddress_outbond"
             android:layout_marginLeft="150dp"
@@ -136,6 +141,8 @@
             android:id="@+id/Assigned_technician"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
+
             android:hint="Assigned technician"
             android:layout_below="@id/complaint"
             android:layout_marginLeft="150dp"
@@ -161,6 +168,8 @@
             android:id="@+id/Assigned_by_technician"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
+
             android:hint="Assigned by technician"
             android:layout_below="@id/Assigned_technician"
             android:layout_marginLeft="150dp"

@@ -34,6 +34,8 @@
 
         <EditText
             android:id="@+id/CustomerName_sales"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Customer Name"
@@ -58,6 +60,8 @@
 
         <EditText
             android:id="@+id/date_sales"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date"
@@ -83,6 +87,8 @@
 
         <EditText
             android:id="@+id/product"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Product"
@@ -108,6 +114,8 @@
 
         <EditText
             android:id="@+id/price"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Price"
@@ -134,6 +142,8 @@
 
         <EditText
             android:id="@+id/material_sales"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Material"
@@ -159,6 +169,8 @@
 
         <EditText
             android:id="@+id/paid_amount"
+            android:singleLine="true"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Paid amount"
